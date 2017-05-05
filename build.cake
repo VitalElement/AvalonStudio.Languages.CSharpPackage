@@ -109,7 +109,7 @@ public NuGetPackSettings GetPackSettings(string rid)
 {
     var nuspecNuGetBehaviors = new NuGetPackSettings()
     {
-        Id = "VitalElement.Languages.CSharp." + rid,
+        Id = "AvalonStudio.Languages.CSharp." + rid,
         Version = version,
         Authors = new [] { "VitalElement" },
         Owners = new [] { "Dan Walmsley (dan at walms.co.uk)" },
