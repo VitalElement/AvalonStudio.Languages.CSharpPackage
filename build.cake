@@ -43,7 +43,7 @@ var configuration = Argument("configuration", "Release");
 // CONFIGURATION
 ///////////////////////////////////////////////////////////////////////////////
 
-var MainRepo = "VitalElement/AvalonStudio.Lanaguages.CSharpPackage";
+var MainRepo = "VitalElement/AvalonStudio.Languages.CSharpPackage";
 var MasterBranch = "master";
 var ReleasePlatform = "Any CPU";
 var ReleaseConfiguration = "Release";
