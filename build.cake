@@ -147,7 +147,7 @@ var toolchainDownloads = new List<ToolchainDownloadInfo>
             { 
                 Format = "zip", 
                 DestinationFile = "omnisharp.zip", 
-                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.17.0/omnisharp-win-x64-netcoreapp1.1.zip",
+                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.17.0/omnisharp-win-x64-net46.zip",
                 Name = "omnisharp-win-x64-netcoreapp1.1",
                 PostExtract = (curDir, info) =>{
                     
