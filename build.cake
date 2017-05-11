@@ -114,7 +114,7 @@ public NuGetPackSettings GetPackSettings(string rid)
         Authors = new [] { "VitalElement" },
         Owners = new [] { "Dan Walmsley (dan at walms.co.uk)" },
         LicenseUrl = new Uri("http://opensource.org/licenses/MIT"),
-        ProjectUrl = new Uri("https://github.com/VitalElement/CefGlue.Core/"),
+        ProjectUrl = new Uri("https://github.com/VitalElement/"),
         RequireLicenseAcceptance = false,
         Symbols = false,
         NoPackageAnalysis = true,
@@ -147,7 +147,7 @@ var toolchainDownloads = new List<ToolchainDownloadInfo>
             { 
                 Format = "zip", 
                 DestinationFile = "omnisharp.zip", 
-                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.17.0/omnisharp-win-x64-net46.zip",
+                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.16.1/omnisharp-win-x64-netcoreapp1.1.zip",
                 Name = "omnisharp-win-x64-netcoreapp1.1",
                 PostExtract = (curDir, info) =>{
                     
@@ -164,7 +164,7 @@ var toolchainDownloads = new List<ToolchainDownloadInfo>
             { 
                 Format = "tar.gz", 
                 DestinationFile = "omnisharp.tar.gz", 
-                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.17.0/omnisharp-ubuntu.14.04-x64-netcoreapp1.1.tar.gz",
+                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.16.1/omnisharp-ubuntu.14.04-x64-netcoreapp1.1.tar.gz",
                 Name = "omnisharp-ubuntu.14.04-x64-netcoreapp1.1",
                 PostExtract = (curDir, info) =>{
                     
@@ -181,7 +181,7 @@ var toolchainDownloads = new List<ToolchainDownloadInfo>
             { 
                 Format = "tar.gz", 
                 DestinationFile = "omnisharp.tar.gz", 
-                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.17.0/omnisharp-osx-x64-netcoreapp1.1.tar.gz",
+                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.16.1/omnisharp-osx-x64-netcoreapp1.1.tar.gz",
                 Name = "omnisharp-osx-x64-netcoreapp1.1",
                 PostExtract = (curDir, info) =>{
                     
