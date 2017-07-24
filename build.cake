@@ -147,8 +147,8 @@ var toolchainDownloads = new List<ToolchainDownloadInfo>
             { 
                 Format = "zip", 
                 DestinationFile = "omnisharp.zip", 
-                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.16.1/omnisharp-win-x64-netcoreapp1.1.zip",
-                Name = "omnisharp-win-x64-netcoreapp1.1",
+                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.22.0/omnisharp-win-x64-net46.zip",
+                Name = "omnisharp-win-x64-net46",
                 PostExtract = (curDir, info) =>{
                     
                 }
@@ -164,8 +164,8 @@ var toolchainDownloads = new List<ToolchainDownloadInfo>
             { 
                 Format = "tar.gz", 
                 DestinationFile = "omnisharp.tar.gz", 
-                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.16.1/omnisharp-ubuntu.14.04-x64-netcoreapp1.1.tar.gz",
-                Name = "omnisharp-ubuntu.14.04-x64-netcoreapp1.1",
+                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.22.0/omnisharp-debian.8-x64-netcoreapp1.1.tar.gz",
+                Name = "omnisharp-debian.8-x64-netcoreapp1.1",
                 PostExtract = (curDir, info) =>{
                     
                 }
@@ -181,7 +181,7 @@ var toolchainDownloads = new List<ToolchainDownloadInfo>
             { 
                 Format = "tar.gz", 
                 DestinationFile = "omnisharp.tar.gz", 
-                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.16.1/omnisharp-osx-x64-netcoreapp1.1.tar.gz",
+                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.22.0/omnisharp-osx-x64-netcoreapp1.1.tar.gz",
                 Name = "omnisharp-osx-x64-netcoreapp1.1",
                 PostExtract = (curDir, info) =>{
                     
