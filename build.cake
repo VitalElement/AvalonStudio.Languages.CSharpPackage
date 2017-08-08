@@ -146,43 +146,19 @@ var toolchainDownloads = new List<ToolchainDownloadInfo>
             new ArchiveDownloadInfo()
             { 
                 Format = "zip", 
-                DestinationFile = "omnisharp.zip", 
-                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.22.0/omnisharp-win-x64-net46.zip",
-                Name = "omnisharp-win-x64-net46",
+                DestinationFile = "dotnet104.zip", 
+                URL =  "https://download.microsoft.com/download/E/7/8/E782433E-7737-4E6C-BFBF-290A0A81C3D7/dotnet-dev-win-x64.1.0.4.zip",
+                Name = "dotnet-dev-win-x64.1.0.4.zip",
                 PostExtract = (curDir, info) =>{
                     
                 }
-            }
-        }
-    },
-    new ToolchainDownloadInfo (artifactsDir)
-    { 
-        RID = "ubuntu-x64", 
-        Downloads = new List<ArchiveDownloadInfo>()
-        { 
+            },
             new ArchiveDownloadInfo()
             { 
-                Format = "tar.gz", 
-                DestinationFile = "omnisharp.tar.gz", 
-                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.22.0/omnisharp-debian.8-x64-netcoreapp1.1.tar.gz",
-                Name = "omnisharp-debian.8-x64-netcoreapp1.1",
-                PostExtract = (curDir, info) =>{
-                    
-                }
-            }
-        }
-    },
-    new ToolchainDownloadInfo (artifactsDir)
-    { 
-        RID = "osx-x64", 
-        Downloads = new List<ArchiveDownloadInfo>()
-        { 
-            new ArchiveDownloadInfo()
-            { 
-                Format = "tar.gz", 
-                DestinationFile = "omnisharp.tar.gz", 
-                URL =  "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.22.0/omnisharp-osx-x64-netcoreapp1.1.tar.gz",
-                Name = "omnisharp-osx-x64-netcoreapp1.1",
+                Format = "zip", 
+                DestinationFile = "dotnet2.zip", 
+                URL =  "https://download.microsoft.com/download/F/A/A/FAAE9280-F410-458E-8819-279C5A68EDCF/dotnet-sdk-2.0.0-preview2-006497-win-x64.zip",
+                Name = "dotnet-sdk-2.0.0-preview2-006497-win-x64.zip",
                 PostExtract = (curDir, info) =>{
                     
                 }
